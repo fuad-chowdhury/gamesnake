@@ -29,7 +29,7 @@ death = pygame.image.load("death.jpg")
 death = pygame.transform.scale(death, (screen_width, screen_height)).convert_alpha()
 
 # Game Title
-pygame.display.set_caption("SnakesWithHarry")
+pygame.display.set_caption("Snake_game")
 pygame.display.update()
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 55)
